@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastro</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1>Cadastro</h1>
+	<hr>
+	<form action="http://191.252.62.149:8080/pweb/salvar.jsp" method="post">
+		Login: <br>
+		<input type="text" name="login"><br>
+
+		Senha: <br>
+		<input type="password" name="senha"> <br>
+
+		Confirme sua senha: <br>
+		<input type="password" name="confirmaSenha"> <br>
+
+		Nome: <br>
+		<input type="text" name="nome"><br>
+
+		Sexo: <br>
+		<input type="radio" value = "h" name="sexo"> Masculino<br>
+		<input type="radio" value = "m" name="sexo"> Feminino<br>
+
+		Email: <br>
+		<input type="email" name="email"><br>
+		<hr>
+		Interesses: <br>
+		<input type="checkbox" name="interesses" value="fut"> Futebol<br>
+		<input type="checkbox" name="interesses" value="pol"> Política<br>
+		<input type="checkbox" name="interesses" value="eco"> Economia<br>
+		<input type="checkbox" name="interesses" value="car"> Carros<br>
+		<input type="checkbox" name="interesses" value="celeb"> Celebridades<br>
+		<br>
+		<select name="estado">
+			<option value="PI">Piauí</option>
+			<option value="CE">Ceará</option>
+			<option value="SP">São Paulo</option>
+			<option value="RJ">Rio de Janeiro</option>
+		</select>
+		<br>
+		<br>
+		<input type="submit" name="enviar" value="Enviar">
+	</form>
+</body>
+</html>
