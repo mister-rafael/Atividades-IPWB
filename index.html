@@ -6,33 +6,81 @@
 	<style type="text/css">
 		body{
 			font-family: "Times New Roman", Palatino, Bookman, New Century Schoolbook, serif;
-			background: #d6d6d6;
+			background: #2D3E50;
+			/*background-image: url(img_geral/background2.jpg);*/
 		}
 		.quadro{
 			font-family: "Times New Roman", Palatino, Bookman, New Century Schoolbook, serif;
-			font-size: 10px;
-			background-color: white;
-			box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-			border-radius: 30px;
-			width: 200px;
-			height: 250px;
-			padding-left: 4px;
-			padding-top: 4px;
-			padding-right: 4px;
+			font-size: 20px;
+			background-color: #FBB535;
+			box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+			border-bottom-right-radius: 10px;
+			border-bottom-left-radius: 10px;
+			width: 140px;
+			height: 175px;
+			padding-left: 1px;
+			padding-right: 1px;
+			padding-top: 1px;
 			float: left;
-			margin: 5px;
+			margin: 3px;
 		}
 		.quadro h1{
 			/*font-size: 20px;*/
+			font-size: 20px;
+			color: #614535;
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-bottom: 5px;
+			padding-top: 5px;
+			text-align: left;
+		}
+		.quadro p{
+			font-size: 16px;
+			color: #614535;
+			padding-left: 10px;
+			text-align: left;
+		}
+		.quadro img{
+			width: 75px;
+			height: 55px;
+			margin-left: 27px;
+			box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.7);
+			border-radius: 40px;
+			background-color: white;
+
+		}
+		.cabecalho{
+			font-family: "Times New Roman", Palatino, Bookman, New Century Schoolbook, serif;
+			font-size: 16px;
+			background-image: url("img_geral/background.jpg");
+			/*background-color: #F2F2F2;*/
+			box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+			/*border-radius: 30px;*/
+			width: 100%;
+			height: 320px;
+			float: top;
+			padding-top: 5px;
+			
+		}
+		.cabecalho img{
+			width: 100%;
+			height: 200px;
+			/*border-top-left-radius: 30px;
+			border-top-right-radius: 30px;*/
+		}
+		.cabecalho h1{
+			/*font-size: 20px;*/
+			color: white;
+			width: 650px;
+			background-color: #749268;
 			padding-left: 10px;
 			padding-right: 10px;
 			padding-bottom: 20px;
 			padding-top: 10px;
-		}
-		.quadro img{
-			width: 200px;
-			border-top-left-radius: 30px;
-			border-top-right-radius: 30px;
+			border-top-right-radius: 10px;
+			border-bottom-right-radius: 10px;
+			box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+			margin-left: 5px;
 		}
 		.texto{
 			float: left;
@@ -42,44 +90,60 @@
 	</style>
 </head>
 <body>
-	<h1>Olá!</br>Você está nas práticas de RAFAEL DA SILVA.</br>Seja Bem-vindo(a)!</h1>
-	<hr>
+	<div class="cabecalho"><!--Linha 01 - Aula do dia 06/09/2022-->
+		<!--img src="img_geral/background.jpg"-->
+		<h1>Bem-vindo(a)! Você está nas práticas de RAFAEL DA SILVA.</h1>
+	</div>
 	<!--Criando a barra de navegação-->
 	<div class="quadro"><!--Linha 01 - Aula do dia 06/09/2022-->
-		<a href="01"><img src="img_geral/icon1.png"></a>
-		<h1>Pratica 01: <br>Primeira página</h1>
+		<h1>Pratica 01:</h1>
+		<p>Primeira página</p><hr>
+		<a href="01"><img src="img_geral/icon2.png"></a>
 	</div>
 	<div class="quadro"><!--Linha 02-- Aula 02: 13/09/2022-->
-		<a href="02"><img src="img_geral/icon1.png"></a>
-		<h1>Pratica 02: <br>Links e tabelas</h1>
+		<h1>Pratica 02:</h1>
+		<p>Links e tabelas</p><hr>
+		<a href="02"><img src="img_geral/icon2.png"></a>
 	</div>
 	<div class="quadro"><!--Linha 03-- Aula 03: 20/09/2022-->
-		<a href="03"><img src="img_geral/icon1.png"></a>
-		<h1>Pratica 03:<br>Formulários</h1>
+		<h1>Pratica 03:</h1>
+		<p>Formulários</p><hr>
+		<a href="03"><img src="img_geral/icon2.png"></a>
 	</div>
 	<div class="quadro"><!--Linha 04-- Projeto trabalho: 21/09/2022-->
-		<a href="04_Projeto"><img src="img_geral/icon1.png"></a>
-		<h1>Pratica 04: <br>Projeto: Site de viajem</h1>
+		<h1>Pratica 04:</h1>
+		<p>Projeto Avaliativo</p><hr>
+		<a href="04_Projeto"><img src="img_geral/icon2.png"></a>
 	</div>
 	<div class="quadro"><!--Linha 05-- Primeiro passos com css: 27/09/2022-->
-		<a href="05"><img src="img_geral/icon1.png"></a>
-		<h1>Pratica 05: <br>CSS: Estilizando o site</h1>
+		<h1>Pratica 05:</h1>
+		<p>CSS: Estilização</p><hr>
+		<a href="05"><img src="img_geral/icon2.png"></a>
 	</div>
 	<div class="quadro"><!--Linha 06-- Divs e span: 28/09/2022-->
-		<a href="06"><img src="img_geral/icon1.png"></a>
-		<h1>Pratica 06: <br>Criando div e Span</h1>
+		<h1>Pratica 06: </h1>
+		<p>Criando div e Span</p><hr>
+		<a href="06"><img src="img_geral/icon2.png"></a>
 	</div>
 	<div class="quadro"><!--Linha 07-- Fontes e cores: 04/10/2022-->
-		<a href="07"><img src="img_geral/icon1.png"></a>
-		<h1>Pratica 07: <br>Familias de fontes</h1>
+		<h1>Pratica 07:</h1>
+		<p>Familias de fontes</p><hr>
+		<a href="07"><img src="img_geral/icon2.png"></a>
 	</div>
 	<div class="quadro"><!--Linha 08-- Boxe model 05/10/2022-->
-		<a href="08"><img src="img_geral/icon1.png"></a>
-		<h1>Pratica 08: <br>Boxe model</h1>
+		<h1>Pratica 08:</h1>
+		<p>Boxe model</p><hr>
+		<a href="08"><img src="img_geral/icon2.png"></a>
 	</div>
 	<div class="quadro">
-		<a href="09"><img src="img_geral/icon1.png"></a>
-		<h1>Pratica 09: <br>Livre</h1>
+		<h1>Pratica 09:</h1>
+		<p>Livre</p><hr>
+		<a href="09"><img src="img_geral/icon2.png"></a>
+	</div>
+	<div class="quadro">
+		<h1>Pratica 10:</h1>
+		<p>Livre</p><hr>
+		<a href="10"><img src="img_geral/icon2.png"></a>
 	</div>
 </body>
 </html>
