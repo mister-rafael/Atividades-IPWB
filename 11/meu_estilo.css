@@ -1,0 +1,106 @@
+body{
+			margin: 0px;
+		}
+		.menu{
+			background-color: yellow;
+			font-size: 32px;
+			width: 100%;
+			height: 50px;
+			padding-top: 10px;
+			padding-left: 10px;
+			margin: 0px;
+			box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.5);
+
+		}
+
+		.menu a:link{ /*Não visitado*/
+			color: #1C1C1C;
+			text-decoration: none;
+		}
+		.menu a:visited{
+			color: #1C1C1C;
+		}
+		.menu a:hover{
+			color: #ffffff;
+			background-color: #FF4500;
+		}
+		.menu a:active{
+			color: #4B0082;
+		}
+		.boxModel{
+			font-family: "opensans-regular", arial, sans-serif;
+			/*background-color: #f5f5dc;*/
+			background-image: linear-gradient(to right, #ADD8E6 , #87CEEB, #87CEFA);
+			box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.5);
+			border-radius: 10px;
+			color: #333;
+			font-size: 16px;
+			padding: 20px;
+			margin: 20px;
+			text-align: justify;
+			line-height: 24px;
+			width: 700px;
+
+		}
+		.boxModel header{
+			width: 100%;
+			color: #ADFF2F;
+			text-shadow: 1px 2px 3px #000000;
+			font-size: 32px;
+			margin-left: 5px;
+			margin-bottom: 8px;
+
+		}
+		.boxModel h6{
+			width: 100%;
+			font-size: 16px;
+			margin: 0px;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		.boxModel img{
+			border-radius: 20px;
+			box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.4);
+			float: left;
+			width: 200px;
+			margin-top: 13px;
+			margin-right: 10px;
+			margin-left: 5px;
+			margin-bottom: 5px;
+			float: left;
+		}
+		.boxModel p{
+			margin-bottom: 10px;
+		}
+		.boxModel footer{
+			border-left: 5px solid #A9A9A9;
+			padding-left: 5px;
+		}
+		#menu{
+			background: red;
+			width: 100%;
+			height: 50px;
+		}
+		#cabecalho{
+			background: blue;
+			width: 100%;
+			height: 150px;
+		}
+		#conteudo{
+			background: greenyellow;
+			width: 75%;
+			height: 500px;
+			float: left;
+		}
+		#barraLateral{
+			background: green;
+			width: 25%;
+			height: 500px;
+			float: right;
+		}
+		#rodape{
+			background: brown;
+			width: 100%;
+			height: 45px;
+			float: left;
+		}
