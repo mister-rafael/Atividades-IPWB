@@ -1,0 +1,48 @@
+.box{
+	background: url(../img/camera.png);
+	width: 300px;
+	height: 300px;
+	margin: 50px;
+	color:  white;
+	text-align: justify;
+	padding-top: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-family: sans-serif;
+	box-sizing: border-box;
+	box-shadow: 10px 10px 5px #888888;
+	float: left;
+}
+.box h1{
+	background: rgba(255, 255, 255, 0.5);
+	text-shadow: 3px 3px 3px gray;
+	color:  black;
+}
+.box2{
+	background: linear-gradient(to top left, yellow, red);
+	width: 300px;
+	height: 300px;
+	margin: 50px;
+	color:  white;
+	text-align: justify;
+	padding-top: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-family: sans-serif;
+	box-sizing: border-box;
+	box-shadow: 10px 10px 5px #888888;
+	float: left;
+}
+.box2 h1{
+	background: rgba(255, 255, 255, 0.5);
+	text-shadow: 3px 3px 3px gray;
+	color:  black;
+}
+.box3{
+	background: linear-gradient(to top right, blue, violet, green, red);
+	width: 300px;
+	height: 300px;
+	margin: 50px;
+	box-sizing: border-box;
+	float: left;
+}
