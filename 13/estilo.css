@@ -1,0 +1,152 @@
+.box{
+	background: #b9c941;
+	width: 600px;
+	height: 140px;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px 40px;
+	-webkit-border-radius: 10px 40px;
+	-moz-border-radius: 10px 40px;
+}
+.box2{
+	background: green;
+	border: 15px solid black;
+	padding: 20px;
+	width: 500px;
+	float:  left;
+	box-sizing: border-box;/*
+	-webkit-box-sizing: border-box;
+	-moz- box-sizing: border-box;*/
+}
+.boxFlor{
+	margin-top: 100px;
+	border: 0px;
+	padding: 0px;
+	width: 200px;
+	float: left;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz- box-sizing: border-box;
+}
+.boxCircle{
+	margin-top: 100px;
+	border: 0px;
+	padding: 0px;
+	width: 200px;
+	float: left;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz- box-sizing: border-box;
+}
+.petala1{
+	/*background: red;*/
+	width: 100px;
+	height: 100px;
+	float: left;
+	border-right: 5px solid gray;
+	border-bottom: 5px solid gray;
+	border-bottom-left-radius: 200px;
+	border-top-right-radius: 200px;
+	border-top-left-radius: 100px;
+	box-shadow: 0px 0px 10px #888888;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz- box-sizing: border-box;
+}
+.petala2{
+	/*background: yellow;*/
+	width: 100px;
+	height: 100px;
+	float: left;
+	border-left: 5px solid gray;
+	border-bottom: 5px solid gray;
+	border-bottom-right-radius: 200px;
+	border-top-left-radius: 200px;
+	border-top-right-radius: 100px;
+	box-shadow: 0px 0px 10px #888888;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz- box-sizing: border-box;
+}
+.petala3{
+	/*background: green;*/
+	width: 100px;
+	height: 100px;
+	float: left;
+	border-right: 5px solid gray;
+	border-top: 5px solid gray;
+	border-top-left-radius: 200px;
+	border-bottom-right-radius: 200px;
+	border-bottom-left-radius: 100px;
+	box-shadow: 0px 0px 10px #888888;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz- box-sizing: border-box;
+}
+.petala4{
+	/*background: violet;*/
+	width: 100px;
+	height: 100px;
+	float: left;
+	border-left: 5px solid gray;
+	border-top: 5px solid gray;
+	border-top-right-radius: 200px;
+	border-bottom-right-radius: 100px;
+	border-bottom-left-radius: 200px;
+	box-shadow: 0px 0px 10px #888888;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz- box-sizing: border-box;
+}
+.q1{
+	background: red;
+	width: 100px;
+	height: 100px;
+	float: left;
+	border-top-left-radius: 100px;
+	box-shadow: 0px 0px 10px #888888;
+	border-right: 1px solid gray;
+	border-bottom: 1px solid gray;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz- box-sizing: border-box;
+}
+.q2{
+	background: yellow;
+	width: 100px;
+	height: 100px;
+	float: left;
+	border-top-right-radius: 100px;
+	box-shadow: 0px 0px 10px #888888;
+	border-left: 1px solid gray;
+	border-bottom: 1px solid gray;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz- box-sizing: border-box;
+}
+.q3{
+	background: green;
+	width: 100px;
+	height: 100px;
+	float: left;
+	border-bottom-left-radius: 100px;
+	box-shadow: 0px 0px 10px #888888;
+	border-right: 1px solid gray;
+	border-top: 1px solid gray;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz- box-sizing: border-box;
+}
+.q4{
+	background: violet;
+	width: 100px;
+	height: 100px;
+	float: left;
+	border-bottom-right-radius: 100px;
+	box-shadow: 0px 0px 10px #888888;
+	border-left: 1px solid gray;
+	border-top: 1px solid gray;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz- box-sizing: border-box;
+}
