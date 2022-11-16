@@ -1,0 +1,61 @@
+/*PRATICA DA AULA*/
+@keyframes minhaAnimacao{
+	from{
+		left: 10px;
+	}
+	to{
+		left: 50px;
+		background: blue;
+		border-radius: 100px;
+		width: 200px;
+		height: 200px;
+	}
+}
+.box{
+	position: relative;
+	left: 10px;
+	top: 10px;
+	width: 100px;
+	height: 100px;
+	background: red;
+	/*animation-name: minhaAnimacao;
+	animation-duration: 5s;
+	animation-delay: 3s;
+	animation-iteration-count: 4;
+	animation-direction: alternate;
+	animation: minhaAnimacao 5s 3s 3 alternate;*/
+
+}
+.box:hover{
+	border: solid 5px black;
+	transition: border 3s 2s;
+}
+/*EXERCICIO DA AULA*/
+@keyframes animacaoBox{
+	0%   {background: green; transform: rotate(90deg);}
+ 	25%  {background: blue; }
+ 	50%  {background: yellow; }
+ 	75%  {background: red; }
+ 	100% {background: violet; }
+}
+@keyframes teste{
+	from{
+		left: 10px;
+	}
+	to{
+		background: green; transform: rotate(90deg);
+	}
+	to{
+		background: red; transform: rotate(180deg);
+	}
+
+}
+.box2{
+	position: relative;
+	left: 100px;
+	top: 100px;
+	width: 100px;
+	height: 100px;
+	background: blue;
+	animation: teste 5s 2s alternate;
+}
