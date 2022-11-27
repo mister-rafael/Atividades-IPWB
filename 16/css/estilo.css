@@ -23,7 +23,9 @@
 	animation-delay: 3s;
 	animation-iteration-count: 4;
 	animation-direction: alternate;
-	animation: minhaAnimacao 5s 3s 3 alternate;*/
+	animation-timing-function: 
+	animation-fill-mode*/
+	animation: minhaAnimacao 5s 3s 3 alternate;
 
 }
 .box:hover{
@@ -32,30 +34,19 @@
 }
 /*EXERCICIO DA AULA*/
 @keyframes animacaoBox{
-	0%   {background: green; transform: rotate(90deg);}
- 	25%  {background: blue; }
- 	50%  {background: yellow; }
- 	75%  {background: red; }
- 	100% {background: violet; }
-}
-@keyframes teste{
-	from{
-		left: 10px;
-	}
-	to{
-		background: green; transform: rotate(90deg);
-	}
-	to{
-		background: red; transform: rotate(180deg);
-	}
-
+	0%  {background: red; }
+ 	25% {transform: rotate(90deg); background: yellow; }
+ 	50% {transform: rotate(180deg); background: blue; }
+ 	100% {transform: rotate(270deg); background: green;}
+ 	
 }
 .box2{
 	position: relative;
-	left: 100px;
-	top: 100px;
-	width: 100px;
-	height: 100px;
-	background: blue;
-	animation: teste 5s 2s alternate;
+	left: 200px;
+	top: 200px;
+	width: 200px;
+	height: 200px;
+	background: black;
+	animation: animacaoBox 10s 2s 3 alternate forwards;
+	
 }
