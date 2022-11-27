@@ -1,0 +1,17 @@
+.conteudo{
+	background: #dcdcdc;
+	borde: 1px solid blue;
+	box-sizing: border-box;
+}
+.linha{
+	background: #ffebcd;
+	border: 1px solid black;
+	box-sizing: border-box;
+
+}
+.coluna{
+	background: #87ceeb;
+	border: 1px solid black;
+	box-sizing: border-box;
+	height: 100px;
+}
