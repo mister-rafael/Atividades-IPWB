@@ -1,0 +1,17 @@
+.menu2{
+	display: none;
+}
+@media screen and (max-width: 600px) {
+	span.menu1{
+		display: none;
+	}
+	.menu2{
+		display: inline-block;
+	}
+}
+.icone{
+
+}
+.btn-custom{
+	
+}
