@@ -1,106 +1,98 @@
-body{
-			font-family: "Times New Roman", Palatino, Bookman, New Century Schoolbook, serif;
-			background: #FFFFFF;
-			margin: 0px;
-		}
-		.capa{
-			/*background-image: url("/.../img_geral/background.jpg");*/
-			width: 100%;
-			height: 255px;
-			float: left;
-			position: fixed;
+.conteudo{
+	background-image: linear-gradient(to bottom, rgba(206, 212, 218, 0.8), rgba(173, 181, 189, 0.8), rgba(108 , 117, 125, 0.8), rgba(73, 80, 87, 0.8));
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.cabecalho{
+	/*background-color: #EBB042;*/
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 1.0), rgba(20, 33, 61, 1.0),rgba(252, 163, 17, 1.0));
+	box-shadow: 0px 1px 2px 3px rgba(0, 0, 0, 0.4);
+	margin-bottom: 5px;
+	box-sizing: border-box;
+}
+.logo{
+	width: 100%;
+	padding: 5px;
+	box-sizing: border-box;
+}
+.logo img{
+	width: 70px;
+	height: 100px;
+}
 
-		}
-		.capa img{
-			width: 100%;
-			height: 255px;
-			margin: 0px;
-			padding: 0px;
-		}
-		.cabecalho{
-			font-family: "Times New Roman", Palatino, Bookman, New Century Schoolbook, serif;
-			font-size: 16px;
-			background-color: #EBB042;
-			box-shadow: 0px 1px 2px 3px rgba(0, 0, 0, 0.4);
-			width: 100%;
-			height: 50px;
-			float: left;
-			margin-bottom: 2px;
-			position: fixed;
-			top: 255px;
-			
-		}
-		.cabecalho h1{
-			color: white;
-			text-align: center;
-			margin-top: 5px;
-			/*Move p/lado | para cima/baixo | intensidade*/
-			text-shadow: 1px 2px 3px #000000;
+.titulo{
+	font-family: "Times New Roman", Palatino, Bookman, New Century Schoolbook, serif;
+	font-size: 16px;
+	width: 100%;
+	padding-right: 10px;
+	box-sizing: border-box;
+}
+.titulo h1{
+	color: white;
+	text-align: center;
+	/*Move p/lado | para cima/baixo | intensidade*/
+	text-shadow: 1px 2px 3px #000000;
 
-		}
-		#quadrosGrupo{
-			margin-top: 310px;
-			margin-bottom: 40px;
-			float: left;
-		}
-		.quadro{
-			font-family: "Times New Roman", Palatino, Bookman, New Century Schoolbook, serif;
-			color: white;
-			text-shadow: 1px 2px 3px #000000;
-			font-size: 20px;
-			background-color: #3C5C75;
-			box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.4);
-			border-radius: 3px;
-			width: 25%;
-			height: 200px;
-			padding-left: 1px;
-			padding-right: 1px;
-			padding-top: 1px;
-			float: left;
-			margin: 10px;
-		}
-		.quadro h1{
-			font-size: 20px;
-			padding-left: 10px;
-			padding-right: 10px;
-			padding-bottom: 5px;
-			padding-top: 5px;
-			text-align: left;
-		}
-		.quadro p{
-			font-size: 16px;
-			padding-left: 5px;
-			text-align: left;
-			line-height: 5px;
-		}
-		.quadro a:link{
-			color:  white;
-			text-decoration: none;
-		}
-		.quadro a:visited{
-			color:  white;
-		}
-		.quadro img{
-			width: 75px;
-			height: 55px;
-			margin-left: 27px;
-			box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.7);
-			border-radius: 40px;
-			background-color: white;
+}
+.coluna{
+	padding: 10px;
+}
+.quadro{
+	font-family: "Times New Roman", Palatino, Bookman, New Century Schoolbook, serif;
+	color: white;
+	text-shadow: 1px 2px 3px #000000;
+	font-size: 20px;
+	background-color: #3C5C75;
+	box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.4);
+	border-radius: 5px;
+	width: 100%;
+	height: 255px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.quadro h1{
+	font-size: 20px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	text-align: left;
+}
+.quadro p{
+	font-size: 16px;
+	text-align: left;
+	
+}
+.quadro a:link{
+	color:  white;
+	text-decoration: none;
+}
+.quadro a:visited{
+	color:  white;
+}
+.quadro img{
+	width: 50px;
+	height: 50px;
+	margin-left: 27px;
+	box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.7);
+	border-radius: 40px;
+	background-color: white;
 
-		}
-		.texto{
-			float: left;
-			text-align: justify;
-		}
-		.rodape{
-			background-color: #EBB042;
-			color: #38271C;
-			float: left;
-			width: 100%;
-			height: 50px;
-			text-align: center;
-			text-shadow: 1px 2px 3px white;
-			padding-top: 5px;
-			bottom: 0px;
-		}
+}
+.projeto{
+	background-color: #EBB042;
+}
+.teste{
+	margin: 2px;
+}
+.rodape{
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 1.0), rgba(20, 33, 61, 1.0),rgba(252, 163, 17, 1.0));
+	color: white;
+	float: left;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	text-shadow: 1px 2px 3px black;
+	padding-top: 5px;
+	bottom: 0px;
+}
