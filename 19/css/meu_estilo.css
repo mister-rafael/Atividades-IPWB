@@ -1,0 +1,79 @@
+/*ADAPTAÇÃO AO CSS*/
+:root{
+  --border-color: #dee2e6;
+}
+img {
+  vertical-align: middle;
+}
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.img-rounded {
+  border-radius: 6px;
+}
+.img-thumbnail {
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+.img-circle {
+  border-radius: 50%;
+}
+/*CSS DO DESAFIO*/
+.fundo{
+  background: #DEE2E6;
+  padding: 10px;
+
+}
+.box1{
+  background: #F8F9FA;
+  border-radius: 3px;
+  border-top: #0466C8 solid 3px;
+  padding: 13px;
+}
+.perfil{
+ display: flex;
+ justify-content: center;
+}
+.perfil img{
+  width: 100px;
+  height: 100px;
+  border: 2px solid var(--border-color);
+  padding: 2px;
+}
+.nome_user{
+  text-align: center;
+}
+.profissao{
+  font-size: 16px;
+  text-align: center;
+}
+/*Destinado aos campos: seguidores, seguindo e amigos*/
+.bx-interno{
+  padding-left: 3px;
+  margin: 0px;
+}
+.bx-interno #titulo{
+  color: #001233;
+}
+.bx-interno #numeros{
+  float: right;
+  color: #0466C8;
+}
+.botao{
+  --bs-btn-bg: #0d6efd; 
+}
